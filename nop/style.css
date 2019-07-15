@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	width: 100%;
+	font-size: 50px;
+	height: 900px;
+}
+
+#logo{
+
+	text-align: center;
+	background-color: #38C8FE;
+	height: 150px;
+	line-height: 150px;
+	width: 20%;
+	float: left;
+	margin-left:  0.5%;
+	margin-top:  0.5%;
+
+	border-radius: 1px;
+}
+#menu{
+
+	text-align: center;
+	float: left;
+	background-color: #FFAF47;
+	line-height: 150px;
+	width: 78.5%;
+	height: 150px;
+	margin:0.5%;
+}
+
+#banner{
+
+	text-align: center;
+	clear: left;
+	background-color: #FF7747;
+	height: 300px;
+	line-height: 300px;
+	width: 99%;
+	margin: 0.5%;
+
+}
+.c1, .c2,.c3,.c4{
+	text-align: center;	padding-top: 20px;
+
+}
+ul{
+
+	font-size: 20px; 
+
+}
+.choice{
+	font-size: 25px;
+}
+#choice-1{	
+	background-color: #FFD647;
+	float: left;
+	width: 24.375%;
+	height: 250px;
+	margin: 0.5%;
+
+}
+#choice-2{
+	background-color: #FFD647;
+	float: left;
+	width: 24.375%;
+	height: 250px;	
+	margin-top: 0.5%;
+
+}
+#choice-3{	
+	background-color: #FFD647;
+	float: left;
+	width: 24.375%;
+	height: 250px;	
+	margin: 0.5%;
+}#choice-4{	
+	background-color: #FFD647;
+	float: left;
+	width: 24.375%;
+	height: 250px;	
+	margin-top: 0.5%;
+
+}
+.footer{
+	background-color: #FFAF47;
+	height: 150px;
+	line-height: 150px;
+	clear: left;
+	width: 99%;
+	height: 150px;
+	margin:0.5%;
+	text-align: center;
+}
+
