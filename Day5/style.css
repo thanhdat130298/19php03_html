@@ -1,0 +1,52 @@
+* {
+	margin: 1;
+	padding: 1;
+}
+img {
+	float: left;
+	height: 200px;
+	width: 15%;
+}
+.banner {
+	float: left;
+	height: 100px;
+	width: 85%;
+	padding-top: 15px;
+	text-align: center;
+}
+.day {
+	font-size: 29px;
+}
+.slogan {	
+	text-align: center;
+ 	font-size: 85px;
+	color: #E69B0A;
+	text-shadow:4px 4px 4px black;
+}
+.slogan2 {
+	padding-top: 10px;
+	color: green;
+	font-size: 60px;
+	padding-bottom: 10px;
+}
+.content{
+	padding-top: 70px;
+	clear: left;
+}
+.underline {
+	text-decoration: underline;
+}
+a {
+	color: green;
+}
+.p-tag2 {
+	text-indent: 20px;
+}
+.copy {
+	float: right;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+.info {
+	font-size: 29px;
+}
