@@ -8,13 +8,14 @@
 	border-top: 1px solid black ;
 	width: 300px;
 }
-.a {
+a {
+
+	text-decoration: none;
 }
 li {
 	font-size: 20px;
 	margin: 0 auto;
 	margin-top: 10px ;
-	text-decoration: none;
 	list-style:none;
 	border: 2px solid blue;
 	width: 200px;
