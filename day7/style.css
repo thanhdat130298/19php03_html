@@ -1,0 +1,38 @@
+* {
+	margin: 0 auto;
+	padding: 10px;
+}
+.container {
+	box-shadow: 2px 2px 6px black;
+	border-left: 1px solid black ;
+	border-top: 1px solid black ;
+	width: 300px;
+}
+.a {
+}
+li {
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 10px ;
+	text-decoration: none;
+	list-style:none;
+	border: 2px solid blue;
+	width: 200px;
+	text-align: left;
+	font-weight: bold;
+	color: blue;
+	padding-left: 30px;
+
+}
+li:hover {
+	background-color: black;
+	color: white;
+}
+.active {
+	font-weight: bold;
+	background-color: #CCD1D1;
+}
+.active:hover {
+	background-color: #67b7f0;
+	color: #CCD1D1;
+}
