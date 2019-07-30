@@ -52,6 +52,18 @@ img {
 .day {
 	font-size: 15px;
 }
+.leftside {
+	float: left;
+	width: 70%;
+	border-right:  2px solid #E69B0A;
+}
+.rightside {
+	float: left;
+	width: 29%;
+	font-size: 15px;
+	height: 100%;
+	padding-left: 5px;
+}
 .one {
 	color: #333333;
 	text-decoration: underline;
