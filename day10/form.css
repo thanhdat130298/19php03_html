@@ -1,0 +1,145 @@
+body {
+
+	background-color: #4267B2;
+	color:white;
+}
+.container {
+	margin: 0 auto;
+	width: 767px;
+	height: 500px;
+}
+h1 {
+
+	text-align: center;
+}
+.left_side {
+	text-align: center;
+	background-image: url(images.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	width: 48%;
+	margin-right: 20px;
+	height: 400px;
+	margin-bottom:  50px;
+}
+.right_side {
+	text-align: center;
+	background-image: url(images.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	width: 48%;
+	height: 400px;
+}
+.email : hover{
+	border: none;
+}
+footer {
+	clear: left;
+	text-align: center;
+}
+.email , .password,  .user {
+  background-color: rgba(0,0,0,0);
+  border:none;
+  color:white;
+  width: 90%;
+  margin-bottom: 10px;
+  height: 30px;
+  text-align: center;
+  border-bottom: 2px solid white;
+
+}
+
+.email: focus , .password: focus,  .user: focus {
+	border: none;
+}
+.but {	
+	margin-top: 10px;
+	border-radius: 30px;
+	background-color: #0A427B;
+	border: none;
+	font-size: 18px;
+	color: white;
+	width: 80%;
+	height: 50px;
+}
+.but:hover {
+	color: #0A427B;
+	font-weight: bold;
+	transition: 1s;
+	background: linear-gradient(to left, white 0%, #7E8897 100%);
+
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.social {
+	margin-top: 30px;
+}
+.dont {
+	padding-top: 30px;
+	display:block;
+}
+.facebook {
+	margin-left: 15%;
+	background-color: #4267B2;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.google {
+	margin-left: 5px; 
+	background-color: #D9443D;
+	width: 130px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+.facebook, .google, .facebook i, .fb , .gg {
+	float: left;
+}
+. .google i {
+	float: right;
+}
+.google {
+	border-bottom-right-radius: 40%;
+	border-top-right-radius:40%;
+}
+.facebook 	{
+	border-bottom-left-radius: 40%;
+	border-top-left-radius: 40%;
+}
+.google i{
+	height: 30px;
+	line-height: 25px;
+	padding-top: 8px;
+	padding-left: 5px;
+}
+.facebook i {
+	height: 20px;
+	line-height: 20px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right:  10px;
+}
+.gg {
+
+	border-right: 1px solid black;
+	padding-right: 15px;
+	padding-left:  5px;
+}
+.fb {
+
+	border-left:  1px solid black;
+	padding-left: 5px;
+}
+.term {
+	font-weight: bold;
+	font-style:  italic;
+
+}
