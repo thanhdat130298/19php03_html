@@ -148,4 +148,5 @@ a {
   color: white;
 }
 input:focus {
+	outline: none;
 }
