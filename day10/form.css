@@ -143,3 +143,6 @@ a {
 	font-style:  italic;
 
 }
+::placeholder {
+  color: white;
+}
