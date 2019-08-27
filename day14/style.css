@@ -1,0 +1,18 @@
+.white {
+	width: 50px;
+	height: 50px;
+	background-color: #bbbdb5;
+	float:left;
+}
+.black{ 
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	float:left;
+}
+body {
+	width: 400px;
+}
+script {
+	float: left;
+}
