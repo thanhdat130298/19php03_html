@@ -1,7 +1,7 @@
 function validate(){
 var valueIN=true;
-var fM=document.getElementById('firstM').value;
-var lM=document.getElementById('lastM').value;
+var fN=document.getElementById('firstN').value;
+var lN=document.getElementById('lastN').value;
 var lDay=document.getElementById('lastDay').value;
 var fDay=document.getElementById('firstDay').value;
 var name=document.getElementById('name').value;
@@ -11,31 +11,33 @@ var d2 = Date.parse(fDay);
 		 document.getElementById('errorName').innerHTML ="Tên không được rỗng hoặc số!";
 		 valueIN=false;
 	}
- 	if ((fM=='')){
+	//ten
+ 	if ((fN=='')){
         document.getElementById("errorFirstM").innerHTML = "Chưa nhập số điện đầu kì!";
  		valueIN=false;
  	}
- 	if (isNaN(fM)) {
+ 	if (isNaN(fN)) {
  		document.getElementById("errorFirstM").innerHTML = "Phải là số!";
  		valueIN=false;	
  	}
- 	if (isNaN(lM)) {
+ 	if (isNaN(lN)) {
  		document.getElementById("errorLastM").innerHTML = "Phải là số!";
  		valueIN=false;	
  	}
- 	if ((lM=='')){
+ 	if (lN==''){
  		document.getElementById('errorLastM').innerHTML ="Chưa nhập số điện cuối kì";
  		valueIN=false;
  	}
- 	if ((!isNaN(lM))&&(!isNaN(fM))&&(lM<fM)) {
+ 	if ((!isNaN(lN))&&(!isNaN(fN))&&(lN<fN)) {
  		document.getElementById('errorNum').innerHTML="Số điện cuối kì phải lớn hơn số điện đầu kì";
  		valueIN=false;
  	}
- 	if (fM==''){
+ 	//Số điện
+ 	if (fDay==''){
  		document.getElementById('errorFirstDay').innerHTML ="Chưa nhập ngày đầu kì";
  		valueIN=false;
  	}
- 	if (lM==''){
+ 	if (lDay==''){
  		document.getElementById('errorLastDay').innerHTML ="Chưa nhập ngày cuối kì";
  		valueIN=false;
  	}
@@ -43,7 +45,8 @@ var d2 = Date.parse(fDay);
  		valueIN=false;
  		document.getElementById('errorDay').innerHTML="Ngày phải đúng !";
  	}
- 	var n=lM-fM;
+ 	//Ngày
+ 	var n=lN-fN;
  	console.log(n);
  	var a=0,b=0,c=0;
  	if(valueIN==true){
