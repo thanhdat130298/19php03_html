@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tinh tiền</title>
+	<title>Tính tiền</title>
 	<link rel="stylesheet" type="text/css" href="tinh.css">
 </head>
 <body>
-	<div id="name">Nhập họ tên</div>
-	<input type="text" id="name">
-	<span id="errorName">*</span><br>
+	<div class="container">
+		<h1>TÍNH TIỀN ĐIỆN 2019</h1>
+		<form>
+			<div id="namee" class="name">Nhập họ tên</div>
+			<input type="text" id="name"><br>
+			<span id="errorName">*</span><br>
 
-	<div id="firstM">Nhập số điện đầu kì</div>
-	<input type="text" id="firstM">
-	<span id="errorFirstM">*</span><br>
+			<div id="firstMo" class="name">Nhập số điện đầu kì</div>
+			<input type="text" id="firstM"><br>
+			<span id="errorFirstM">*</span><br>
 
+			<div id="lastMo" class="name">Nhập số điện cuối kì</div>
+			<input type="text" id="lastM"><br>
+			<span id="errorLastM">*</span><br>
+			<span id='errorNum'></span>
 
-	<div id="lastM">Nhập số điện cuối kì</div>
-	<input type="text" id="lastM">
-	<span id="errorLastM">*</span><br>
+			<div id="firstD" class="name">Nhập ngày đầu kì</div>
+			<input type="date" id="firstDay"><br>
+			<span id="errorFirstDay">*</span><br>
 
-
-	<div id="firstDay">Nhập ngày đầu kì</div>
-	<input type="date" id="firstDay">
-	<span id="errorFirstDay">*</span><br>
-
-
-	<div id="lastDay">Nhập ngày đầu kì</div>
-	<input type="date" id="lastDay">
-	<span id="errorLastDay">*</span><br>
-
-
-	<input type="button" value="Tinh tien" id="tinh" onclick="validate()">
-
+			<div id="lastD" class="name">Nhập ngày cuối kì</div>
+			<input type="date" id="lastDay"><br>
+			<span id="errorLastDay">*</span><br>
+			<span id='errorDay'></span>
+			
+			<input type="button" value="Tính tiền" id="tinh" onclick="validate()"><br>
+			<input type="reset" value="Reset " id="reset">
+			<span id="result" ><br></span>
+		</form>
+	</div>
 	<script type="text/javascript" src="tinh.js"></script>
 </body>
 </html>
