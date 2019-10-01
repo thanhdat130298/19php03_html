@@ -1,0 +1,45 @@
+
+body{
+	font-size: 30px;
+}
+#road {
+	position: relative;
+	width: 200px;
+	left: 500px;
+}
+button{ 
+	font-size: 50px;
+	color: #f45;
+	border: 0;
+}
+img {
+	position: relative;
+	left: 420px;
+}
+#left {
+	left: 100px;
+	width: 300px;
+	height: 400px;
+	top: 300px;
+	position: fixed;
+}
+#right {
+	left: 800px;
+	height: 400px;
+	top: 300px;
+	position: fixed;
+	width: 300px;
+}
+#start {
+	left: 100px;
+	width: 200px;
+	height: 70px;
+	position: fixed;
+}
+#stop {
+
+	right: 250px;
+	width: 200px;
+	height: 70px;
+	position: fixed;
+}
