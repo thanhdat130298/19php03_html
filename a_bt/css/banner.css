@@ -1,0 +1,77 @@
+.banner {
+	background-color: #F4EEDE;
+	height: 550px;
+}
+#chaiok {
+	margin-left: -100px;
+	border: 10px solid gray;
+	height: 300px;
+}
+.cungcap {
+	position: absolute;
+	font-size: 30px;
+	left: 490px;
+	background-image: linear-gradient(to right, green 10%, #17c22b 80%);
+	color: white;
+	top: 250px;
+	padding: 20px;	
+	padding-left: 150px;
+
+}
+.chu2 {
+	color: #17c22b;
+	font-weight: normal;
+	font-size: 40px;
+	font-family: fontcc;
+	margin-top: 10px;
+}
+.hinh, .chu {
+	float: left;	
+	margin-top: 100px;
+}
+.hinh {
+	padding-left: 100px;left: -100px;
+	position: relative;
+	margin-right: 80px;
+}
+.chu3 {
+	font-size: 20px;
+	font-family:  Calibri;
+	width: 500px;
+	position: absolute;
+}
+.border4 {
+	width: 100px;
+	border-bottom: 2px solid gray;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.chu {	
+	margin-top: 200px;
+}
+.cay{ 
+	position: absolute;
+	text-align: left;
+	top:  2430px;
+}
+.nut1, .nut2 {
+	font-size: 30px;
+	font-family: fontcc;
+	top: 150px;
+}
+.nut1 {
+	position: relative;
+	color: gray;
+}
+.nut2 {
+	position: relative;
+}
+.slideban {
+	position: relative;
+	top:105px;
+	margin-left: 90px;
+	font-size: 40px;
+}
+#left , #right {
+	cursor: pointer;
+}

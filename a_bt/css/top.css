@@ -1,0 +1,100 @@
+
+body {
+	color: #4e4f52;
+	width: 100%;
+	margin: 0 auto;
+	font-family: calibri;
+	font-size: 20px;
+}
+.call img {
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.top {
+	margin: 0;
+	margin-top: 5px;
+}
+.main_menu ul li {
+	cursor: pointer;
+	float: left;
+	line-height: 50px;
+	margin-top: 20px;
+	list-style: none;
+}
+.call select  {
+	width: 50px;
+}
+.call img {
+	width: 40px;
+	height: 30px;
+}
+.main_menu {
+	width: 79%;
+	display: inline-block;
+	height: 80px;
+}
+.logo {
+	margin-left: 10px;
+	width: 20%;
+	clear: left;
+	float: left;
+}
+.welcome_to	{
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;	
+}
+.call div, .call select {
+	float: right;
+}
+.top i {
+	background-color: #17c22b;
+	color: white;
+	padding: 3px;
+	margin-top: 5px;
+	border-radius: 5px;
+	margin-right: 3px;
+	margin-left:  3px;
+
+}
+.phone {
+	margin-top: 7px;
+}
+.welcome{
+	font-size: 15px;
+	margin-bottom: 10px;
+	height: 30px;
+	border-bottom: 1px solid #b8b8b8;
+}
+.menu {
+	margin: 0 auto; 
+	width: 100%;
+	margin-top: 10px;
+	height: 80px;
+}
+.main_menu ul li  {
+	text-decoration: none;	
+	color: #4e4f52;
+}
+.main_menu ul li:visited{
+    text-decoration: none;
+}
+.main_menu ul li{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	width: 15%;
+	font-size: 20px;
+	font-weight: bold;
+	overflow: hidden;
+	border: 1px solid white;
+	margin-top: -10px;
+}
+.main_menu ul li:hover {
+	overflow: hidden;
+	color: #17c22b;
+	border: 1px solid #17c22b;
+}
+
+

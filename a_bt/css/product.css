@@ -1,0 +1,110 @@
+h2 {
+	text-align: center;
+	font-size: 25px;
+}
+.submenu ul{
+	text-align: center;
+}
+.submenu ul li{
+	display: inline-block;
+	text-align: center;
+	margin: 5px;
+	list-style: none;
+	cursor: pointer;
+	font-family: calibri;
+	font-weight: bold;
+}
+.product {
+	background-color: #f1f6f6;
+	padding-top: 5px;
+	margin-top: -16px;
+	height: 750px;
+	width: 100%;
+}
+.submenu ul li:hover{
+	color: #14c434;
+}
+.borders {
+	height: 50px;
+	width: 0px;
+	margin: auto;
+	border-left: 1px solid #14c434;
+}
+.products {
+	color: #4e4f52;
+	font-family: calibri;
+	height: 500px;
+	text-align: center;
+}
+.product1 {
+	cursor: pointer;
+	border-radius: 5px;
+	height: 500px;
+	display: block;
+	width: 25%;
+	display: inline-block;
+	background-image: linear-gradient(
+      to bottom, #e0e0e0, white);
+}
+.product2{
+	cursor: pointer;
+	border-radius: 5px;
+	display: inline-block;
+	height: 500px;
+	width: 25%;
+	margin-left: 10px;
+	margin-right:  10px;
+	background-image: linear-gradient(
+      to bottom, #e0e0e0, white);
+ }
+.product3{
+	cursor: pointer;
+	border-radius: 5px;
+	display: block;
+	height: 500px;
+	width: 25%;
+	display: inline-block;
+	background-image: linear-gradient(
+      to bottom, #e0e0e0, white);
+}
+.detail {
+	margin: 10px;
+	font-size: 18px;
+	text-align: left;
+}
+.product img {
+	height: 250px;
+	width: 90%;
+}
+
+@font-face {
+	font-family: fontcc;
+	src: url(../font/Pattaya-Regular.ttf);
+}
+.product-name {
+	font-size: 30px;
+	display: inline-block;
+	font-family: fontcc;
+	color: #17c22b;
+}
+.border {
+	margin: auto;
+	border-bottom: 1px solid gray;
+	width: 100px;
+}
+.product1:hover, .product2:hover, .product3:hover {
+	box-shadow: 0px 5px 5px 1px  #17c22b;
+}
+.slide-but {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+.slide-but i{
+	font-size: 40px;
+}
+.slide-but i:active{
+
+	color: #17c22b;
+}
